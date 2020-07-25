@@ -44,7 +44,7 @@ class GsUtil(object):
     Raises:
       Exception: gsutil is not found
     """
-    bot_gs_util = '/b/build/scripts/slave/gsutil'
+    bot_gs_util = '/b/build/scripts/subordinate/gsutil'
     if gsutil_loc is None:
       home_gs_util = os.path.join(os.path.expanduser('~'), 'gsutil', 'gsutil')
     else:
