@@ -12,7 +12,7 @@ import sys
 import utils
 
 
-GSUTIL = '/b/build/scripts/slave/gsutil'
+GSUTIL = '/b/build/scripts/subordinate/gsutil'
 GS_SITE = 'gs://'
 GS_DIR = 'dart-dump-render-tree'
 LATEST = 'latest'

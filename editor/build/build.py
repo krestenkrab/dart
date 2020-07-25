@@ -224,7 +224,7 @@ def _RunAnt(build_dir, antfile, revision, name, buildroot,
           '/usr/bin/ant',
           #currently the copy of ant in third_party will not build the 
           #code properly so we are going to use the version of Ant that
-          #is installed on the build slave.
+          #is installed on the build subordinate.
           #TODO(mrrussell): figure out why third_party Ant does not work and
           # have the build use that version of ant
           #         os.path.join(antpath, 'bin', 'ant'), '-lib', bzip2libpath,

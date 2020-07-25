@@ -32,7 +32,7 @@ def _BuildOptions():
 
     If you do not specify the location of GSUtil with --gsutilloc the
     program will look in:
-    /b/build/scripts/slave/gsutil (BuildBot location)
+    /b/build/scripts/subordinate/gsutil (BuildBot location)
     ~/gsutil/gsutil (local disk)
     search your path for gsutil
 
